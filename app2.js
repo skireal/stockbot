@@ -8,7 +8,7 @@ const bot = new Slimbot(TOKEN);
 const min = 60000;
 const allMarketData = 'https://mfd.ru/marketdata/?id=5&mode=3&group=16';
 const blueChipsMarketData = 'https://mfd.ru/marketdata/?id=5&mode=1';
-const minVolume = 2000000;
+const minVolume = 3000000;
 const hourFactor = new Date().getHours() / 10;
 const condition = 1;
 
