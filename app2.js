@@ -121,7 +121,7 @@ setInterval(() => {
         indexes
       );
 
-      console.log(result2['secondValues'], getDate(), 'второй');
+     console.log(result2['secondValues'], getDate(), 'второй');
 
       //Создаем сообщение из названий акций, которые удовлетворяют условию
       let message = '';
@@ -136,7 +136,7 @@ setInterval(() => {
 
       bot.sendMessage(25347317, message);
     } catch (error) {
-      console.log(error.response);
+    //  console.log(error.response);
       //=> 'Internal server error ...'
     }
   })();
